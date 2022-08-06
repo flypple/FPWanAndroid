@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <com.flypple.fpwanandroid.widget.TagLayout
+                android:id="@+id/tag_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black_a50"
+                android:textSize="12sp"
+                android:lines="1"
+                android:ellipsize="end"
+                tools:text="鸿洋"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black_a50"
+            android:textSize="12sp"
+            android:lines="1"
+            android:ellipsize="end"
+            tools:text="一小时前"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black_a93"
+        android:textSize="14sp"
+        android:lines="2"
+        android:ellipsize="end"
+        tools:text="Android13适配详解"
+        android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_chapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textColor="@color/color_black_a50"
+            android:textSize="12sp"
+            android:lines="1"
+            android:ellipsize="end"
+            tools:text="原创文章/小编发布"/>
+
+        <ImageView
+            android:id="@+id/iv_collect"
+            android:layout_width="18dp"
+            android:layout_height="18dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

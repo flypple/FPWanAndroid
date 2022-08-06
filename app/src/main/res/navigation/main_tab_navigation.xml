@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_tab_navigation"
+    app:startDestination="@+id/bottom_navigation_home">
+
+    <fragment android:id="@+id/bottom_navigation_home"
+        android:name="com.flypple.fpwanandroid.module.home.HomeFragment"
+        android:label="@string/home"/>
+
+    <fragment android:id="@+id/bottom_navigation_square"
+        android:name="com.flypple.fpwanandroid.module.square.SquareFragment"
+        android:label="@string/home"/>
+
+    <fragment android:id="@+id/bottom_navigation_knowledge_system"
+        android:name="com.flypple.fpwanandroid.module.knowledge.KnowledgeSystemFragment"
+        android:label="@string/home"/>
+
+    <fragment android:id="@+id/bottom_navigation_mine"
+        android:name="com.flypple.fpwanandroid.module.mine.MineFragment"
+        android:label="@string/home"/>
+
+</navigation>

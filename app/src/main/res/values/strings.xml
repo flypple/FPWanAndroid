@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FPWanAndroid</string>
+    <string name="home">首页</string>
+    <string name="knowledge_system">体系</string>
+    <string name="square">广场</string>
+    <string name="mine">我</string>
+</resources>
